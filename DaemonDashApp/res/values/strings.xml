@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">DaemonDashApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string android:id="@+id/string1" name="button1" android:layout_width="wrap_content" android:layout_height="wrap_content">Press Me!</string>
+    <string name="noclick">Click the button noob!</string>
+    <string name="title_activity_form_submission">FormSubmission</string>
+    <string android:id="@+id/string1" name="FormPrompt1" android:layout_width="wrap_content" android:layout_height="wrap_content">What did you eat?</string>
+    <string android:id="@+id/string1" name="FormPrompt2" android:layout_width="wrap_content" android:layout_height="wrap_content">What diner are you at?</string>
+    <string android:id="@+id/string1" name="BarcodePrompt" android:layout_width="wrap_content" android:layout_height="wrap_content">Barcode #: </string>
+    <string android:id="@+id/string1" name="SubmitPrompt" android:layout_width="wrap_content" android:layout_height="wrap_content">Submit</string>
+    <string android:id="@+id/string1" name="FoodItem1" android:layout_width="wrap_content" android:layout_height="wrap_content">Pizza</string>
+    <string android:id="@+id/string1" name="FoodItem2" android:layout_width="wrap_content" android:layout_height="wrap_content">Chicken Strips</string>
+    <string android:id="@+id/string1" name="FoodItem3" android:layout_width="wrap_content" android:layout_height="wrap_content">Wrap/Sandwich</string>
+    <string android:id="@+id/string1" name="FoodItem4" android:layout_width="wrap_content" android:layout_height="wrap_content">Value Meal</string>
+    <string android:id="@+id/string1" name="FoodItem5" android:layout_width="wrap_content" android:layout_height="wrap_content">Hamburger</string>
+    <string android:id="@+id/string1" name="Barcode" android:layout_width="wrap_content" android:layout_height="wrap_content">01584510195</string>
+    <string name="Diner1">North Campus</string>
+    <string name="diner2">South Campus</string>
+    <string name="diner3">251 North</string>
+    <string name="title_activity_data">DataActivity</string>
+
+</resources>

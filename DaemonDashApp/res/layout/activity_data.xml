@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/lineGraph"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="foodDistHandler"
+        android:text="Food Distribution" />
+
+	<Button
+	    android:id="@+id/BarGraph"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="dinerDistHandler"
+	    android:text="Diner Distribution" />
+
+	<TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Past places"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/row1"
+            android:layout_column="1"
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/row2"
+            android:layout_column="1"
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:id="@+id/row3"
+            android:layout_column="1"
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+</TableLayout>
+
+</LinearLayout>
